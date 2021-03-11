@@ -1,5 +1,5 @@
 # Allison Kwan - Porfolio
-https://www.allisonkwan.github.io/
+https://www.allisonkwan.netlify.app/
 
 Personal porfolio website
 built on top of https://react-portfolio-template.netlify.app/
