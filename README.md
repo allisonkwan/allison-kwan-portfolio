@@ -7,10 +7,10 @@ Built on top of https://react-portfolio-template.netlify.app/
 Implemented:
 - Styling Changes
 - Social Links
-- Experience section
+- Experience Section
 - Organizational Involvement Section
-- Skills section
+- Skills Section
 - View Resume Button
 
 Next steps:
-- Header text animation
+- Header Text Animation
