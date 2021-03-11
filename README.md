@@ -1,15 +1,16 @@
-# Allison Kwan - Porfolio
+# Allison Kwan - Porfolio Website
 https://www.allisonkwan.github.io/
 
-Personal porfolio website
-built on top of https://react-portfolio-template.netlify.app/
+Personal Porfolio Website
+Built on top of https://react-portfolio-template.netlify.app/
 
 Implemented:
-- Styling changes
-- Social links
+- Styling Changes
+- Social Links
 - Experience section
-- Github contributions
+- Organizational Involvement Section
 - Skills section
+- View Resume Button
 
 Next steps:
 - Header text animation
