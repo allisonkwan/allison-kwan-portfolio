@@ -29,7 +29,8 @@
     "react-github-calendar": "^2.0.2",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "react-tooltip": "^4.2.21"
   },
   "devDependencies": {
     "prettier": "2.1.2"

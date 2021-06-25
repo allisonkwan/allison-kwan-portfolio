@@ -17,7 +17,11 @@ import javascriptIcon from "./images/javascript.png"
 import javaIcon from "./images/java.png"
 import cssIcon from "./images/css.png"
 import reactIcon from "./images/react.png"
-import reactNativeIcon from "./images/reactnative.png"
+import elbIcon from "./images/awsbeanstalk.png"
+import codePipelineIcon from "./images/codepipeline.png"
+import seleniumIcon from "./images/selenium.png"
+import qlikviewIcon from "./images/qlikview.jpg"
+import confluenceIcon from "./images/confluence.png"
 import excelIcon from "./images/excel.png"
 import matlabIcon from "./images/matlab.jpeg"
 
@@ -70,28 +74,17 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Coffee Chat", //Project Title - Add Your Project Title Here
-      subtitle: "In development.",
-      para:
-        "A local startup service aimed at connecting college students through 1:1 video calls, providing introductions using a customized matching algorithm.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: require("./images/coffeechat.jpg"),
-      //Project URL - Add Your Project Url Here
-      url: "http://coffechat.io/",
-    },
-    {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
       title: "Tree-Plenish User Access Portal", //Project Title - Add Your Project Title Here
       subtitle: "In development.",
       para:
         "A custom built web access portal enabling student leaders to view data essential for organizing tree-planting events. Includes login functionality and data automatically pulled from a remote server.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: require("./images/treeplenish.png"),
+      imageSrc: require("./images/treeportal.png"),
       //Project URL - Add Your Project Url Here
-      url: "https://github.com/tree-plenish",
+      url: "treeplenishportal.com",
     },
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
+      id: 2, //DO NOT CHANGE THIS (Please)😅
       title: "Voices of the Vaccine", //Project Title - Add Your Project Title Here
       subtitle: "Best Overall - Hacklytics Hackathon",
       para:
@@ -102,7 +95,7 @@ export default {
       url: "https://github.com/allisonkwan/voices-of-the-vaccine",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Draw Your Way", //Project Title - Add Your Project Title Here
       subtitle: "Best Overall - HackGT7 Hackathon",
       para:
@@ -111,6 +104,16 @@ export default {
       imageSrc: require("./images/drawyourway.png"),
       //Project URL - Add Your Project Url Here
       url: "https://github.com/allisonkwan/draw-your-way",
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Coffee Chat", //Project Title - Add Your Project Title Here
+      para:
+        "A local startup service aimed at connecting college students through 1:1 video calls, providing introductions using a customized matching algorithm.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: require("./images/coffeechat.jpg"),
+      //Project URL - Add Your Project Url Here
+      url: "http://coffechat.io/",
     },
   ],
 
@@ -137,39 +140,39 @@ export default {
       id: 2,
       img: adiIcon,
       title: "Analog Devices",
-      subtitle: "Incoming Quality Engineering Intern | Summer 2021",
-      para: <p>Working with the Autonomous Vehicle Perception Group to develop data visualization dashboards for predictive quality trends.</p>,
+      subtitle: "Data Visualization Intern | Summer 2021",
+      para: <p>Developing a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
     },
   ],
 
   organizations: [
     {
       id: 1,
-      img: bdbiIcon,
-      title: "Big Data Big Impact",
-      subtitle: "Data Visualization Developer",
-      para: <p>Using React Native to develop a mobile application to display crop disease image data analyzed with computer vision techniques.</p>,
-    },
-    {
-      id: 2,
-      img: coffeeIcon,
-      title: "Coffee Chat - Local Startup",
-      subtitle: "Front-End Developer",
-      para: <p>Using React to efficiently implement user-optimized designs and client-side logic with seamless integration of back-end work (APIs).</p>,
-    },
-    {
-      id: 3,
       img: treeIcon,
       title: "Tree-Plenish - National Nonprofit",
       subtitle: "Software Development Lead",
-      para: <p>Developing software to connect third party platforms (Typeform, Mailchimp, Stripe). Leading efforts to increase efficiency through automation.</p>,
+      para: <p>Developing a full stack user portal connected to a PostgreSQL database. Overseeing continuous deployment for all web development projects.</p>,
+    },
+    {
+      id: 2,
+      img: bdbiIcon,
+      title: "Big Data Big Impact",
+      subtitle: "Data Visualization Developer",
+      para: <p>Used React Native to develop a mobile application using deep learning techniques to analyze an uploaded image for crop type and disease present.</p>,
+    },
+    {
+      id: 3,
+      img: coffeeIcon,
+      title: "Coffee Chat - Local Startup",
+      subtitle: "Front-End Developer",
+      para: <p>Used React to efficiently implement user-optimized designs and client-side logic.</p>,
     },
     {
       id: 4,
       img: dcIcon,
       title: "180 Degrees Consulting",
-      subtitle: "Junior Consultant",
-      para: <p>Redesigning the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
+      subtitle: "Senior Consultant",
+      para: <p>Redesigned the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
     },
     {
       id: 5,
@@ -217,8 +220,31 @@ export default {
       },
       {
         id: 2,
-        img: reactNativeIcon,
-        title: "React Native",
+        img: elbIcon,
+        title: "AWS Elastic Beanstalk",
+      },
+      {
+        id: 3,
+        img: codePipelineIcon,
+        title: "AWS CodePipeline",
+      },
+      {
+        id: 4,
+        img: seleniumIcon,
+        title: "Selenium",
+      },
+    ],
+
+    software: [
+      {
+        id: 1,
+        img: qlikviewIcon,
+        title: "QlikView",
+      },
+      {
+        id: 2,
+        img: confluenceIcon,
+        title: "Confluence",
       },
       {
         id: 3,

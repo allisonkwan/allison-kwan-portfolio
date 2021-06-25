@@ -43,9 +43,18 @@ const Skills = () => {
               ))}
             </div>
             <div className="skills-grid">
-              <h3>Technologies/Libraries</h3>
+              <h3>Technologies</h3>
               {data.skills.technologies.map(skill => (
                 <div className="skill technologies" key={skill.id}>
+                  <img src={skill.img} alt="css"></img>
+                  <p>{skill.title}</p>
+                </div>
+              ))}
+            </div>
+            <div className="skills-grid">
+              <h3>Software</h3>
+              {data.skills.software.map(skill => (
+                <div className="skill software" key={skill.id}>
                   <img src={skill.img} alt="css"></img>
                   <p>{skill.title}</p>
                 </div>
