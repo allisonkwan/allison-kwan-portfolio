@@ -12,7 +12,7 @@ const Footer = () => {
             <h1>Contact Me</h1>
             <h2>{data.contactSubHeading}</h2>
           </Fade>
-          <a className="primary-btn" href="/allison-kwan-resume.pdf" download>
+          <a className="primary-btn" href="/Allison Kwan Resume.pdf" download>
             View Resume
           </a>
           <Connect />

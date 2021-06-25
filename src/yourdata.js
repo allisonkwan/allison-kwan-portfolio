@@ -81,7 +81,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: require("./images/treeportal.png"),
       //Project URL - Add Your Project Url Here
-      url: "treeplenishportal.com",
+      url: "http://treeplenishportal.com",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -170,7 +170,7 @@ export default {
     {
       id: 4,
       img: dcIcon,
-      title: "180 Degrees Consulting",
+      title: "180 Degrees Consulting Georgia Tech",
       subtitle: "Senior Consultant",
       para: <p>Redesigned the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
     },
