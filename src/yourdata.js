@@ -60,9 +60,9 @@ export default {
 
   // About Section --------------
   aboutParaOne:
-    "I’m a sophomore Computer Science major at Georgia Tech. I enjoy designing and building full stack and mobile apps, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
+    "I’m a sophomore Computer Science major at Georgia Tech. I enjoy designing data visualizations and building full stack apps, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to front-end development for a local startup. Additionally, I'm working as a mobile developer for a machine learning club and a junior consultant for a student-led consulting firm.",
+    "Currently, I'm involved in several innovative projects ranging from data visualization for a Fortune 500 Company to software development for a national nonprofit. Additionally, I'm working as a mobile developer for a machine learning club and a senior consultant for a student-led consulting firm.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -134,7 +134,7 @@ export default {
       img: gtIcon,
       title: "Georgia Institute of Technology",
       subtitle: "B.S., Computer Science | 2020-2023",
-      para: <p>Concentration in Information Internetworks and Modeling & Simulation{"\n"}</p>,
+      para: <p>Concentration in Information Internetworks and Front-End Development{"\n"}</p>,
     },
     {
       id: 2,
@@ -143,39 +143,39 @@ export default {
       subtitle: "Data Visualization Intern | Summer 2021",
       para: <p>Developing a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
     },
+    {
+      id: 3,
+      img: treeIcon,
+      title: "Tree-Plenish - National Nonprofit",
+      subtitle: "Software Development Lead | Jan 2021 - Present",
+      para: <p>Developing a full stack user portal connected to a PostgreSQL database. Overseeing continuous deployment for all web development projects.</p>,
+    },
   ],
 
   organizations: [
     {
       id: 1,
-      img: treeIcon,
-      title: "Tree-Plenish - National Nonprofit",
-      subtitle: "Software Development Lead",
-      para: <p>Developing a full stack user portal connected to a PostgreSQL database. Overseeing continuous deployment for all web development projects.</p>,
-    },
-    {
-      id: 2,
       img: bdbiIcon,
       title: "Big Data Big Impact",
       subtitle: "Data Visualization Developer",
       para: <p>Used React Native to develop a mobile application using deep learning techniques to analyze an uploaded image for crop type and disease present.</p>,
     },
     {
-      id: 3,
+      id: 2,
       img: coffeeIcon,
       title: "Coffee Chat - Local Startup",
       subtitle: "Front-End Developer",
       para: <p>Used React to efficiently implement user-optimized designs and client-side logic.</p>,
     },
     {
-      id: 4,
+      id: 3,
       img: dcIcon,
       title: "180 Degrees Consulting Georgia Tech",
       subtitle: "Senior Consultant",
       para: <p>Redesigned the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
     },
     {
-      id: 5,
+      id: 4,
       img: gtsfIcon,
       title: "Georgia Tech Student Foundation",
       subtitle: "1st Year Leadership Initiative, Investments Committee",
