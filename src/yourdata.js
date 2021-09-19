@@ -10,18 +10,22 @@ import dcIcon from "./images/dc.png"
 import gtsfIcon from "./images/gtsf.jpg"
 import coffeeIcon from "./images/coffeechat.jpg"
 import treeIcon from "./images/treeplenish.png"
+import asuResearchIcon from "./images/asu.png"
 
 // Skills Icons
 import pythonIcon from "./images/python.png"
 import javascriptIcon from "./images/javascript.png"
 import javaIcon from "./images/java.png"
+import htmlIcon from "./images/html.png"
 import cssIcon from "./images/css.png"
 import reactIcon from "./images/react.png"
+import gitIcon from "./images/git.png"
 import elbIcon from "./images/awsbeanstalk.png"
 import codePipelineIcon from "./images/codepipeline.png"
 import seleniumIcon from "./images/selenium.png"
 import qlikviewIcon from "./images/qlikview.jpg"
 import confluenceIcon from "./images/confluence.png"
+import figmaIcon from "./images/figma.png"
 import excelIcon from "./images/excel.png"
 import matlabIcon from "./images/matlab.jpeg"
 
@@ -155,31 +159,38 @@ export default {
   organizations: [
     {
       id: 1,
-      img: bdbiIcon,
-      title: "Big Data Big Impact",
-      subtitle: "Data Visualization Developer",
-      para: <p>Used React Native to develop a mobile application using deep learning techniques to analyze an uploaded image for crop type and disease present.</p>,
+      img: dcIcon,
+      title: "180 Degrees Consulting Georgia Tech",
+      subtitle: "Senior Consultant | Present",
+      para: <p>Redesigned the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
     },
     {
       id: 2,
       img: coffeeIcon,
       title: "Coffee Chat - Local Startup",
-      subtitle: "Front-End Developer",
+      subtitle: "Front-End Developer | Spring 2021",
       para: <p>Used React to efficiently implement user-optimized designs and client-side logic.</p>,
     },
     {
       id: 3,
-      img: dcIcon,
-      title: "180 Degrees Consulting Georgia Tech",
-      subtitle: "Senior Consultant",
-      para: <p>Redesigned the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
+      img: bdbiIcon,
+      title: "Big Data Big Impact",
+      subtitle: "Data Visualization Developer | Spring 2021",
+      para: <p>Used React Native to develop a mobile application using deep learning techniques to analyze an uploaded image for crop type and disease present.</p>,
     },
     {
       id: 4,
       img: gtsfIcon,
-      title: "Georgia Tech Student Foundation",
+      title: "Georgia Tech Student Foundation | Fall 2020 - Spring 2021",
       subtitle: "1st Year Leadership Initiative, Investments Committee",
       para: <p>Increased understanding of financial techniques used to grow nation's largest student-managed endowment of $1.7 million. Organized campus-wide marketing campaign.</p>,
+    },
+    {
+      id: 5,
+      img: asuResearchIcon,
+      title: "Dr. Matthew Green's Research Lab at Arizona State University | Summer 2019 - Summer 2020",
+      subtitle: "Chemical Engineering Researcher",
+      para: <p>Co-authored a manuscript that was published in Polymer (Jan 2021). Developed a data acquisition program (LabVIEW). Performed data analysis on extensive tensile test data.</p>,
     },
   ],
 
@@ -198,7 +209,7 @@ export default {
       {
         id: 2,
         img: javascriptIcon,
-        title: "Javascript",
+        title: "JavaScript",
       },
       {
         id: 3,
@@ -207,8 +218,13 @@ export default {
       },
       {
         id: 4,
+        img: htmlIcon,
+        title: "HTML",
+      },
+      {
+        id: 5,
         img: cssIcon,
-        title: "HTML / CSS",
+        title: "CSS",
       },
     ],
 
@@ -220,16 +236,21 @@ export default {
       },
       {
         id: 2,
+        img: gitIcon,
+        title: "Git",
+      },
+      {
+        id: 3,
         img: elbIcon,
         title: "AWS Elastic Beanstalk",
       },
       {
-        id: 3,
+        id: 4,
         img: codePipelineIcon,
         title: "AWS CodePipeline",
       },
       {
-        id: 4,
+        id: 5,
         img: seleniumIcon,
         title: "Selenium",
       },
@@ -244,7 +265,7 @@ export default {
       {
         id: 2,
         img: confluenceIcon,
-        title: "Confluence",
+        title: "Atlassian Confluence",
       },
       {
         id: 3,
@@ -253,6 +274,11 @@ export default {
       },
       {
         id: 4,
+        img: figmaIcon,
+        title: "Figma",
+      },
+      {
+        id: 5,
         img: excelIcon,
         title: "Microsoft Excel",
       },
