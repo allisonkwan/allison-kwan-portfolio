@@ -44,7 +44,7 @@ export default {
     "Welcome to my personal page! Feel free to look around — if anything intrigues you, don't hesitate to reach out!",
 
   //Contact Email
-  contactEmail: "akwan2020@gmail.com",
+  contactEmail: "akwan6@gatech.edu",
 
   //Social
   socialMedia: {
@@ -53,16 +53,16 @@ export default {
     github: 'https://github.com/allisonkwan',
     twitter: 'https://www.twitter.com/akwan2020',
     youtube: 'https://www.youtube.com/channel/UCmZ_mSJE2V-lD-eehD8-EYA',
-    email: 'akwan2020@gmail.com'
+    email: 'akwan6@gatech.edu'
   },
 
   // End Header Details -----------------------
 
   // About Section --------------
   aboutParaOne:
-    "I’m a sophomore Computer Science major at Georgia Tech. I enjoy designing data visualizations and building full stack apps, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
+    "I’m a junior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from data visualization for a Fortune 500 Company to software development for a national nonprofit. Additionally, I'm working as a mobile developer for a machine learning club and a senior consultant for a student-led consulting firm.",
+    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to targeted user growth for a technology startup. I've previously worked at Analog Devices as a Data Visualization Intern and also as a mobile developer for a machine learning club.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -75,7 +75,7 @@ export default {
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Tree-Plenish User Access Portal", //Project Title - Add Your Project Title Here
-      subtitle: "In development.",
+      subtitle: "Currently being used by 2,000 student leaders across 20 states.",
       para:
         "A custom built web access portal enabling student leaders to view data essential for organizing tree-planting events. Includes login functionality and data automatically pulled from a remote server.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -141,7 +141,7 @@ export default {
       img: adiIcon,
       title: "Analog Devices",
       subtitle: "Data Visualization Intern | Summer 2021",
-      para: <p>Developing a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
+      para: <p>Developed a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
     },
     {
       id: 3,
@@ -179,7 +179,7 @@ export default {
       img: gtsfIcon,
       title: "Georgia Tech Student Foundation",
       subtitle: "1st Year Leadership Initiative, Investments Committee",
-      para: <p>Increase understanding of financial techniques used to grow nation's largest student-managed endowment of $1.7 million. Organized campus-wide marketing campaign.</p>,
+      para: <p>Increased understanding of financial techniques used to grow nation's largest student-managed endowment of $1.7 million. Organized campus-wide marketing campaign.</p>,
     },
   ],
 
