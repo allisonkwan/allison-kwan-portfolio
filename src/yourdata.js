@@ -100,6 +100,17 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
+      title: "Clikr",
+      subtitle: "1st Place, Anthem Challenge - HackGT8 Hackathon",
+      para:
+          "A Google Chrome extension that acts as an accessible web navigation tool.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: require("./images/clikr.jpg"),
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/allisonkwan/clikr",
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "Draw Your Way", //Project Title - Add Your Project Title Here
       subtitle: "Best Overall - HackGT7 Hackathon",
       para:
@@ -110,7 +121,7 @@ export default {
       url: "https://github.com/allisonkwan/draw-your-way",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "Coffee Chat", //Project Title - Add Your Project Title Here
       para:
         "A local startup service aimed at connecting college students through 1:1 video calls, providing introductions using a customized matching algorithm.", // Add Your Service Type Here
