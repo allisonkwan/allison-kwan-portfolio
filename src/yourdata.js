@@ -80,7 +80,7 @@ export default {
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Tree-Plenish User Access Portal", //Project Title - Add Your Project Title Here
-      subtitle: "Currently being used by 2,000 student leaders across 20 states.",
+      subtitle: "Currently being used by 2,000+ student leaders across 38 states.",
       para:
         "A custom built web access portal enabling student leaders to view data essential for organizing tree-planting events. Includes login functionality and data automatically pulled from a remote server.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -161,17 +161,17 @@ export default {
     },
     {
       id: 3,
+      img: treeIcon,
+      title: "Tree-Plenish",
+      subtitle: "Software Development Lead | Jan 2021 - Present",
+      para: <p>Developed a full stack user portal connected to a PostgreSQL database. Developed a stand-alone graphical user interface executable for employees to view database tables.</p>,
+    },
+    {
+      id: 4,
       img: adiIcon,
       title: "Analog Devices",
       subtitle: "Data Visualization Intern | May - Aug 2021",
       para: <p>Developed a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
-    },
-    {
-      id: 4,
-      img: treeIcon,
-      title: "Tree-Plenish - National Nonprofit",
-      subtitle: "Software Development Lead | Jan 2021 - Present",
-      para: <p>Developing a full stack user portal connected to a PostgreSQL database. Overseeing continuous deployment for all web development projects.</p>,
     },
   ],
 
