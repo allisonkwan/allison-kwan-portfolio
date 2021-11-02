@@ -2,6 +2,7 @@ import React from "react"
 
 // Experience Icons
 import gtIcon from "./images/georgiatech.png"
+import amexIcon from "./images/amex.png"
 import adiIcon from "./images/analogdevices.png"
 
 // Organizations Icons
@@ -153,13 +154,20 @@ export default {
     },
     {
       id: 2,
+      img: amexIcon,
+      title: "American Express",
+      subtitle: "Software Engineering Intern | Summer 2022",
+      para: <p>Extremely excited for this opportunity!</p>,
+    },
+    {
+      id: 3,
       img: adiIcon,
       title: "Analog Devices",
       subtitle: "Data Visualization Intern | May - Aug 2021",
       para: <p>Developed a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
     },
     {
-      id: 3,
+      id: 4,
       img: treeIcon,
       title: "Tree-Plenish - National Nonprofit",
       subtitle: "Software Development Lead | Jan 2021 - Present",
