@@ -8,6 +8,7 @@ import adiIcon from "./images/analogdevices.png"
 // Organizations Icons
 import bdbiIcon from "./images/bdbi.png"
 import dcIcon from "./images/dc.png"
+import bogIcon from "./images/bog.png"
 import gtsfIcon from "./images/gtsf.jpg"
 import coffeeIcon from "./images/coffeechat.jpg"
 import treeIcon from "./images/treeplenish.png"
@@ -19,10 +20,13 @@ import javascriptIcon from "./images/javascript.png"
 import javaIcon from "./images/java.png"
 import htmlIcon from "./images/html.png"
 import cssIcon from "./images/css.png"
+import cIcon from "./images/c.png"
 import reactIcon from "./images/react.png"
+import flaskIcon from "./images/flask.png"
 import gitIcon from "./images/git.png"
 import elbIcon from "./images/awsbeanstalk.png"
 import codePipelineIcon from "./images/codepipeline.png"
+import gaIcon from "./images/ga.png"
 import seleniumIcon from "./images/selenium.png"
 import qlikviewIcon from "./images/qlikview.jpg"
 import confluenceIcon from "./images/confluence.png"
@@ -67,7 +71,7 @@ export default {
   aboutParaOne:
     "I’m a junior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to targeted user growth for a technology startup. I've previously worked at Analog Devices as a Data Visualization Intern and also as a mobile developer for a machine learning club.",
+    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to crafting a multichannel fundraising strategy for a charity organization. I've previously worked at Analog Devices as a Data Visualization Intern and also as a mobile developer for a machine learning club.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -180,32 +184,39 @@ export default {
       id: 1,
       img: dcIcon,
       title: "180 Degrees Consulting Georgia Tech",
-      subtitle: "Senior Consultant | Jan 2021 - Present",
-      para: <p>Redesigned the Junior League of Atlanta's existing online member dashboard to increase logical organization of data and improve users' understanding of organization's functions.</p>,
+      subtitle: "Project Manager | Jan 2021 - Present",
+      para: <p>Leading a team of 6 consultants to develop a strategic campaign to identify, attract, engage and increase support from streamers to ultimately help raise awareness and fund PCOS Challenge projects, initiatives and patient-centered research, including identification of potential funding sources.</p>,
     },
     {
       id: 2,
+      img: bogIcon,
+      title: "Bits of Good",
+      subtitle: "Nonprofit Partnership Committee Member | Jan 2022 - Present",
+      para: <p>Organizing meetings with nonprofits to discuss their product needs and develop a proposal. Presenting potential partners to the Product Decision Board. Identifying new channels to participate in outreach efforts.</p>,
+    },
+    {
+      id: 3,
       img: coffeeIcon,
       title: "Coffee Chat - Local Startup",
       subtitle: "Front-End Developer | Jan - May 2021",
       para: <p>Used React to efficiently implement user-optimized designs and client-side logic.</p>,
     },
     {
-      id: 3,
+      id: 4,
       img: bdbiIcon,
       title: "Big Data Big Impact",
       subtitle: "Data Visualization Developer | Jan - May 2021",
       para: <p>Used React Native to develop a mobile application using deep learning techniques to analyze an uploaded image for crop type and disease present.</p>,
     },
     {
-      id: 4,
+      id: 5,
       img: gtsfIcon,
       title: "Georgia Tech Student Foundation",
       subtitle: "1st Year Leadership Initiative | Aug 2020 - May 2021",
       para: <p>Increased understanding of financial techniques used to grow nation's largest student-managed endowment of $1.7 million. Organized campus-wide marketing campaign.</p>,
     },
     {
-      id: 5,
+      id: 6,
       img: asuResearchIcon,
       title: "Green Research Lab at Arizona State University",
       subtitle: "Chemical Engineering Researcher | May 2019 - Aug 2020",
@@ -245,6 +256,11 @@ export default {
         img: cssIcon,
         title: "CSS",
       },
+      {
+        id: 6,
+        img: cIcon,
+        title: "C",
+      },
     ],
 
     technologies: [
@@ -255,8 +271,8 @@ export default {
       },
       {
         id: 2,
-        img: gitIcon,
-        title: "Git",
+        img: flaskIcon,
+        title: "Flask",
       },
       {
         id: 3,
@@ -270,6 +286,11 @@ export default {
       },
       {
         id: 5,
+        img: gitIcon,
+        title: "Git",
+      },
+      {
+        id: 6,
         img: seleniumIcon,
         title: "Selenium",
       },
@@ -288,8 +309,8 @@ export default {
       },
       {
         id: 3,
-        img: matlabIcon,
-        title: "MATLAB",
+        img: gaIcon,
+        title: "Google Analytics",
       },
       {
         id: 4,
@@ -298,6 +319,11 @@ export default {
       },
       {
         id: 5,
+        img: matlabIcon,
+        title: "MATLAB",
+      },
+      {
+        id: 6,
         img: excelIcon,
         title: "Microsoft Excel",
       },
