@@ -30,9 +30,9 @@ import gaIcon from "./images/ga.png"
 import seleniumIcon from "./images/selenium.png"
 import qlikviewIcon from "./images/qlikview.jpg"
 import confluenceIcon from "./images/confluence.png"
-import figmaIcon from "./images/figma.png"
-import excelIcon from "./images/excel.png"
-import matlabIcon from "./images/matlab.jpeg"
+import apexIcon from "./images/apexIcon.png"
+import sqlIcon from "./images/sqlIcon.png"
+import oracleRestIcon from "./images/oracleRestIcon.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -71,7 +71,7 @@ export default {
   aboutParaOne:
     "I’m a junior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to crafting a multichannel fundraising strategy for a charity organization. I've previously worked at Analog Devices as a Data Visualization Intern and also as a mobile developer for a machine learning club.",
+    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing all project work for a campus consulting organization. I've previously worked at Analog Devices as a Data Visualization Intern and also as a mobile developer for a machine learning club.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -108,7 +108,7 @@ export default {
       title: "Clikr",
       subtitle: "1st Place, Anthem Challenge - HackGT8 Hackathon",
       para:
-          "A Google Chrome extension that acts as an accessible web navigation tool.", // Add Your Service Type Here
+        "A Google Chrome extension that acts as an accessible web navigation tool.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: require("./images/clikr.jpg"),
       //Project URL - Add Your Project Url Here
@@ -119,7 +119,7 @@ export default {
       title: "Draw Your Way", //Project Title - Add Your Project Title Here
       subtitle: "Best Overall - HackGT7 Hackathon",
       para:
-          "A mobile and web guiding app allowing users to envision visual representations of complex directions.", // Add Your Service Type Here
+        "A mobile and web guiding app allowing users to envision visual representations of complex directions.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: require("./images/drawyourway.png"),
       //Project URL - Add Your Project Url Here
@@ -138,7 +138,7 @@ export default {
   ],
 
   // End Work Section -----------------------
-  
+
   //   YouTube Section --------------------------
 
   youtubeHeading: "YouTube",
@@ -160,8 +160,8 @@ export default {
       id: 2,
       img: amexIcon,
       title: "American Express",
-      subtitle: "Software Engineering Intern | Summer 2022",
-      para: <p>Extremely excited for this opportunity!</p>,
+      subtitle: "Software Engineering Intern | May - August 2022",
+      para: <p>Developing a dashboard to automatically consolidate environmental health check data across several large-scale finance, controllership, and accounting platforms.</p>,
     },
     {
       id: 3,
@@ -184,15 +184,15 @@ export default {
       id: 1,
       img: dcIcon,
       title: "180 Degrees Consulting Georgia Tech",
-      subtitle: "Project Manager | Jan 2021 - Present",
-      para: <p>Leading a team of 6 consultants to develop a strategic campaign to identify, attract, engage and increase support from streamers to ultimately help raise awareness and fund PCOS Challenge projects, initiatives and patient-centered research, including identification of potential funding sources.</p>,
+      subtitle: "Director of Projects | Jan 2021 - Present",
+      para: <p>Managing 5 project managers, supporting them with weekly check-ins, to ensure that projects exceed client expectations. Curating project portfolio to contain mix of strategic, technical, operational, marketing, and healthcare focuses.</p>,
     },
     {
       id: 2,
       img: bogIcon,
       title: "Bits of Good",
-      subtitle: "Nonprofit Partnership Committee Member | Jan 2022 - Present",
-      para: <p>Organizing meetings with nonprofits to discuss their product needs and develop a proposal. Presenting potential partners to the Product Decision Board. Identifying new channels to participate in outreach efforts.</p>,
+      subtitle: "Product Manager | Jan 2022 - Present",
+      para: <p>Serving as primary point of contact with nonprofit client to drive product development process from inception to production. Developing product roadmap by converting business requirements to actionable tasks.</p>,
     },
     {
       id: 3,
@@ -299,33 +299,33 @@ export default {
     software: [
       {
         id: 1,
-        img: qlikviewIcon,
-        title: "QlikView",
+        img: apexIcon,
+        title: "Oracle Application Express (APEX)",
       },
       {
         id: 2,
+        img: sqlIcon,
+        title: "Oracle SQL Developer",
+      },
+      {
+        id: 3,
+        img: oracleRestIcon,
+        title: "Oracle Rest API (ORDS)",
+      },
+      {
+        id: 4,
         img: confluenceIcon,
         title: "Atlassian Confluence",
       },
       {
-        id: 3,
-        img: gaIcon,
-        title: "Google Analytics",
-      },
-      {
-        id: 4,
-        img: figmaIcon,
-        title: "Figma",
-      },
-      {
         id: 5,
-        img: matlabIcon,
-        title: "MATLAB",
+        img: qlikviewIcon,
+        title: "QlikView",
       },
       {
         id: 6,
-        img: excelIcon,
-        title: "Microsoft Excel",
+        img: gaIcon,
+        title: "Google Analytics",
       },
     ],
   },
