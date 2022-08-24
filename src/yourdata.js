@@ -71,7 +71,7 @@ export default {
   aboutParaOne:
     "I’m a junior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing all project work for a campus consulting organization. I've previously worked at Analog Devices as a Data Visualization Intern and also as a mobile developer for a machine learning club.",
+    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing all project work for a campus consulting organization. I've previously worked at American Express as a Software Engineering Intern and Analog Devices as a Data Visualization Intern.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -161,7 +161,7 @@ export default {
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | May - August 2022",
-      para: <p>Developing a dashboard to automatically consolidate environmental health check data across several large-scale finance, controllership, and accounting platforms.</p>,
+      para: <p>Developed a web dashboard to automatically consolidate service status and system data across several large-scale finance platforms, saving 90 hrs/week of manual reactive health checks and reducing support team inquiry volume by 20%.</p>,
     },
     {
       id: 3,
