@@ -49,14 +49,11 @@ const Work = () => {
           </div>
         </div>
         <div className="extra-container">
-          {/* <GitHubCalendar
+          <GitHubCalendar
             username="allisonkwan"
             blockSize={width / 75}
             fontSize={width / 200 + 5}>
             <ReactTooltip html />
-          </GitHubCalendar> */}
-          <GitHubCalendar>
-            username="allisonkwan"
           </GitHubCalendar>
         </div>
         {/* <div className="extra-container">
