@@ -37,12 +37,12 @@ const Work = () => {
               <h1>Organizational Involvement</h1>
               <div className="experience-grid">
                 {data.organizations.map(organizations => (
-                    <div className="experience" key={organizations.id}>
-                      <img src={organizations.img} alt="css"></img>
-                      <h3>{organizations.title}</h3>
-                      <h4>{organizations.subtitle}</h4>
-                      {organizations.para}
-                    </div>
+                  <div className="experience" key={organizations.id}>
+                    <img src={organizations.img} alt="css"></img>
+                    <h3>{organizations.title}</h3>
+                    <h4>{organizations.subtitle}</h4>
+                    {organizations.para}
+                  </div>
                 ))}
               </div>
             </div>
@@ -53,7 +53,7 @@ const Work = () => {
             username="allisonkwan"
             blockSize={width / 75}
             fontSize={width / 200 + 5}>
-              <ReactTooltip delayShow={50} html/>
+            <ReactTooltip html />
           </GitHubCalendar>
         </div>
         {/* <div className="extra-container">

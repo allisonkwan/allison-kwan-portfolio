@@ -161,7 +161,7 @@ export default {
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | May - August 2022",
-      para: <p>Developed a web dashboard to automatically consolidate service status and system data across several large-scale finance platforms, saving 90 hrs/week of manual reactive health checks and reducing support team inquiry volume by 20%.</p>,
+      para: <p>Developed a web dashboard to automatically consolidate service status and system data across several large-scale finance platforms, saving 90 hrs/month of manual reactive health checks and reducing support team inquiry volume by 20%.</p>,
     },
     {
       id: 3,
