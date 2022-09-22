@@ -53,20 +53,6 @@ const Work = () => {
             />
           </div>
         </div>
-<<<<<<< HEAD
-=======
-        <div className="extra-container">
-          <GitHubCalendar
-            username="allisonkwan"
-            blockSize={width / 75}
-            fontSize={width / 200 + 5}>
-            <ReactTooltip html />
-          </GitHubCalendar>
-        </div>
-        {/* <div className="extra-container">
-          <h2>Resume</h2>
-        </div> */}
->>>>>>> 335b2358c284294939c824d54546b32650287efd
       </div>
     </div>
   )
