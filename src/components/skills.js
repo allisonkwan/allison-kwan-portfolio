@@ -31,7 +31,7 @@ const Skills = () => {
     <div className="section">
       <div className="container">
         <div className="skills-container">
-          {/* <h1>Skills</h1> */}
+          <h1>Skills</h1>
           <div className="skills-grid-container">
             <div className="skills-grid">
               <h3>Languages</h3>
