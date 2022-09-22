@@ -1,7 +1,6 @@
 import React from "react"
 import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
-import { Card } from 'react-github-stats-card-v2';
 import useWindowDimensions from "./functions/window"
 import data from "../yourdata"
 
@@ -53,16 +52,13 @@ const Work = () => {
             />
           </div>
         </div>
-        <div className="extra-container">
+        {/* <div className="extra-container">
           <GitHubCalendar
             username="allisonkwan"
             blockSize={width / 75}
             fontSize={width / 200 + 5}>
             <ReactTooltip html />
           </GitHubCalendar>
-        </div>
-        {/* <div className="extra-container">
-          <h2>Resume</h2>
         </div> */}
       </div>
     </div>
