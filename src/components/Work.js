@@ -1,7 +1,6 @@
 import React from "react"
 import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
-import { StatCard } from 'react-github-stats-card-v2';
 import useWindowDimensions from "./functions/window"
 import data from "../yourdata"
 
@@ -45,12 +44,6 @@ const Work = () => {
                 ))}
               </div>
             </div>
-          </div>
-          <div className="extra-container">
-            <StatCard
-              username="allisonkwan"
-              theme={true}
-            />
           </div>
         </div>
         {/* <div className="extra-container">
