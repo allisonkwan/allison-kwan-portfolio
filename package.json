@@ -26,8 +26,12 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+<<<<<<< HEAD
     "react-github-calendar": "^2.0.2",
     "react-github-stats-card-v2": "^1.2.0",
+=======
+    "react-github-calendar": "^3.3.4",
+>>>>>>> 335b2358c284294939c824d54546b32650287efd
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1",
