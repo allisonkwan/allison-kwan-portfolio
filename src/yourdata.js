@@ -2,6 +2,7 @@ import React from "react"
 
 // Experience Icons
 import gtIcon from "./images/georgiatech.png"
+import amazonIcon from "./images/amazon.png"
 import amexIcon from "./images/amex.png"
 import adiIcon from "./images/analogdevices.png"
 
@@ -20,10 +21,11 @@ import javascriptIcon from "./images/javascript.png"
 import javaIcon from "./images/java.png"
 import htmlIcon from "./images/html.png"
 import cssIcon from "./images/css.png"
-import cIcon from "./images/c.png"
+import dartIcon from "./images/dart.png"
+import sqlLangIcon from "./images/sql.png"
 import reactIcon from "./images/react.png"
 import flaskIcon from "./images/flask.png"
-import gitIcon from "./images/git.png"
+import flutterIcon from "./images/flutter.png"
 import elbIcon from "./images/awsbeanstalk.png"
 import codePipelineIcon from "./images/codepipeline.png"
 import gaIcon from "./images/ga.png"
@@ -127,13 +129,14 @@ export default {
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Coffee Chat", //Project Title - Add Your Project Title Here
+      title: "No Stocks Left Behind", //Project Title - Add Your Project Title Here
+      subtitle: "Submitted to HackGT9 Hackathon",
       para:
-        "A local startup service aimed at connecting college students through 1:1 video calls, providing introductions using a customized matching algorithm.", // Add Your Service Type Here
+        "Wearable device that alerts users when their stock prices rise or fall by a predetermined percentage. Includes web interface for customizing alert settings.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: require("./images/coffeechat.jpg"),
+      imageSrc: require("./images/stockwearable.jpg"),
       //Project URL - Add Your Project Url Here
-      url: "http://coffechat.io/",
+      url: "https://github.com/hmillersarah/stock-wearable",
     },
   ],
 
@@ -158,20 +161,27 @@ export default {
     },
     {
       id: 2,
+      img: amazonIcon,
+      title: "Amazon",
+      subtitle: "Software Development Engineering Intern | Summer 2023",
+      para: <p>So excited about this upcoming opportunity!</p>,
+    },
+    {
+      id: 3,
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | May - August 2022",
       para: <p>Developed a web dashboard to automatically consolidate service status and system data across several large-scale finance platforms, saving 90 hrs/month of manual reactive health checks and reducing support team inquiry volume by 20%.</p>,
     },
     {
-      id: 3,
+      id: 4,
       img: treeIcon,
       title: "Tree-Plenish",
       subtitle: "Software Development Lead | Jan 2021 - Present",
-      para: <p>Developed a full stack user portal connected to a PostgreSQL database. Developed a stand-alone graphical user interface executable for employees to view database tables.</p>,
+      para: <p>Developing a mobile app to streamline the event notification process. Developed a full stack user portal connected to a PostgreSQL database. Created a stand-alone graphical user interface executable for employees to view database tables.</p>,
     },
     {
-      id: 4,
+      id: 5,
       img: adiIcon,
       title: "Analog Devices",
       subtitle: "Data Visualization Intern | May - Aug 2021",
@@ -248,18 +258,18 @@ export default {
       },
       {
         id: 4,
-        img: htmlIcon,
-        title: "HTML",
+        img: dartIcon,
+        title: "Dart",
       },
       {
         id: 5,
         img: cssIcon,
-        title: "CSS",
+        title: "HTML & CSS",
       },
       {
         id: 6,
-        img: cIcon,
-        title: "C",
+        img: sqlIcon,
+        title: "SQL",
       },
     ],
 
@@ -276,18 +286,18 @@ export default {
       },
       {
         id: 3,
+        img: flutterIcon,
+        title: "Flutter",
+      },
+      {
+        id: 4,
         img: elbIcon,
         title: "AWS Elastic Beanstalk",
       },
       {
-        id: 4,
+        id: 5,
         img: codePipelineIcon,
         title: "AWS CodePipeline",
-      },
-      {
-        id: 5,
-        img: gitIcon,
-        title: "Git",
       },
       {
         id: 6,
