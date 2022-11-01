@@ -171,21 +171,21 @@ export default {
       img: amexIcon,
       title: "American Express",
       subtitle: "Software Engineering Intern | May - August 2022",
-      para: <p>Developed a web dashboard to automatically consolidate service status and system data across several large-scale finance platforms, saving 90 hrs/month of manual reactive health checks and reducing support team inquiry volume by 20%.</p>,
+      para: <p>Developed a web application to automatically consolidate service status and system data across 14 large-scale finance platforms, saving 90 hrs/month of manual reactive health checks & reducing support team inquiry volume by 20%.</p>,
     },
     {
       id: 4,
       img: treeIcon,
       title: "Tree-Plenish",
       subtitle: "Software Development Lead | Jan 2021 - Present",
-      para: <p>Developing a mobile app to streamline the event notification process. Developed a full stack user portal connected to a PostgreSQL database. Created a stand-alone graphical user interface executable for employees to view database tables.</p>,
+      para: <p>Developing a mobile app to send notifications & real-time data to 4,000+ participants. Developed a full stack user portal connected to a PostgreSQL database. Created a stand-alone graphical user interface executable for employees to view database tables.</p>,
     },
     {
       id: 5,
       img: adiIcon,
       title: "Analog Devices",
       subtitle: "Data Visualization Intern | May - Aug 2021",
-      para: <p>Developed a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics.</p>,
+      para: <p>Developed a collaboration site for the Automotive Customer Quality Engineering group to analyze quality trends and communicate performance metrics to upper-level management & external auditors.</p>,
     },
   ],
 
@@ -268,7 +268,7 @@ export default {
       },
       {
         id: 6,
-        img: sqlIcon,
+        img: sqlLangIcon,
         title: "SQL",
       },
     ],
