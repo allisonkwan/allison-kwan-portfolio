@@ -85,6 +85,17 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "Tree-Plenish Mobile App", //Project Title - Add Your Project Title Here
+      subtitle: "Currently available for download on Apple Store & Google Play Store.",
+      para:
+        "A useful app enabling the nonprofit to notify students about important deadlines and for students to access crucial data needed for hosting their sustainability events.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: require("./images/treeapp.png"),
+      //Project URL - Add Your Project Url Here
+      url: "https://apps.apple.com/app/tree-plenish/id6444708760",
+    },
+    {
+      id: 2, //DO NOT CHANGE THIS (Please)😅
       title: "Tree-Plenish User Access Portal", //Project Title - Add Your Project Title Here
       subtitle: "Currently being used by 2,000+ student leaders across 38 states.",
       para:
@@ -95,7 +106,7 @@ export default {
       url: "http://treeplenishportal.com",
     },
     {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
+      id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Voices of the Vaccine", //Project Title - Add Your Project Title Here
       subtitle: "Best Overall - Hacklytics Hackathon",
       para:
@@ -106,7 +117,7 @@ export default {
       url: "https://github.com/allisonkwan/voices-of-the-vaccine",
     },
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
+      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "Clikr",
       subtitle: "1st Place, Anthem Challenge - HackGT8 Hackathon",
       para:
@@ -117,7 +128,7 @@ export default {
       url: "https://github.com/allisonkwan/clikr",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "Draw Your Way", //Project Title - Add Your Project Title Here
       subtitle: "Best Overall - HackGT7 Hackathon",
       para:
@@ -128,7 +139,7 @@ export default {
       url: "https://github.com/allisonkwan/draw-your-way",
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
+      id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "No Stocks Left Behind", //Project Title - Add Your Project Title Here
       subtitle: "Submitted to HackGT9 Hackathon",
       para:
@@ -178,7 +189,7 @@ export default {
       img: treeIcon,
       title: "Tree-Plenish",
       subtitle: "Software Development Lead | Jan 2021 - Present",
-      para: <p>Developing a mobile app to send notifications & real-time data to 4,000+ participants. Developed a full stack user portal connected to a PostgreSQL database. Created a stand-alone graphical user interface executable for employees to view database tables.</p>,
+      para: <p>Developed a mobile app to send notifications & real-time data to 4,000+ participants. Developed a full stack user portal connected to a PostgreSQL database. Created a stand-alone graphical user interface executable for employees to view database tables.</p>,
     },
     {
       id: 5,
