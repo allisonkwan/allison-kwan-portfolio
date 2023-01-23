@@ -71,7 +71,7 @@ export default {
 
   // About Section --------------
   aboutParaOne:
-    "I’m a junior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
+    "I’m a senior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
     "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing all project work for a campus consulting organization. I've previously worked at American Express as a Software Engineering Intern and Analog Devices as a Data Visualization Intern.",
   aboutParaThree:
@@ -203,17 +203,17 @@ export default {
   organizations: [
     {
       id: 1,
-      img: dcIcon,
-      title: "180 Degrees Consulting Georgia Tech",
-      subtitle: "Director of Projects | Jan 2021 - Present",
-      para: <p>Managing 5 project managers, supporting them with weekly check-ins, to ensure that projects exceed client expectations. Curating project portfolio to contain mix of strategic, technical, operational, marketing, and healthcare focuses.</p>,
+      img: bogIcon,
+      title: "Bits of Good",
+      subtitle: "Associate Director of Product | Jan 2022 - Present",
+      para: <p>Overseeing 7 project teams to ensure all products demonstrate value and viability. Driving product vision and strategy to provide nonprofit clients with a seamless user experience.</p>,
     },
     {
       id: 2,
-      img: bogIcon,
-      title: "Bits of Good",
-      subtitle: "Product Manager | Jan 2022 - Present",
-      para: <p>Serving as primary point of contact with nonprofit client to drive product development process from inception to production. Developing product roadmap by converting business requirements to actionable tasks.</p>,
+      img: dcIcon,
+      title: "180 Degrees Consulting Georgia Tech",
+      subtitle: "Director of Projects | Jan 2021 - Dec 2022",
+      para: <p>Managing 5 project managers, supporting them with weekly check-ins, to ensure that projects exceed client expectations. Curating project portfolio to contain mix of strategic, technical, operational, marketing, and healthcare focuses.</p>,
     },
     {
       id: 3,
