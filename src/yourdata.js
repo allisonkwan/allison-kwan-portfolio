@@ -73,7 +73,7 @@ export default {
   aboutParaOne:
     "I’m a senior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing all project work for a campus consulting organization. I've previously worked at American Express as a Software Engineering Intern and Analog Devices as a Data Visualization Intern.",
+    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing the product vision for a campus web development organization. I've previously worked at American Express as a Software Engineering Intern and Analog Devices as a Data Visualization Intern.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -213,7 +213,7 @@ export default {
       img: dcIcon,
       title: "180 Degrees Consulting Georgia Tech",
       subtitle: "Director of Projects | Jan 2021 - Dec 2022",
-      para: <p>Managing 5 project managers, supporting them with weekly check-ins, to ensure that projects exceed client expectations. Curating project portfolio to contain mix of strategic, technical, operational, marketing, and healthcare focuses.</p>,
+      para: <p>Managed 5 project managers, supporting them with weekly check-ins, to ensure that projects exceeded client expectations. Curated project portfolio to contain mix of strategic, technical, operational, marketing, and healthcare focuses.</p>,
     },
     {
       id: 3,
