@@ -19,17 +19,16 @@ import asuResearchIcon from "./images/asu.png"
 import pythonIcon from "./images/python.png"
 import javascriptIcon from "./images/javascript.png"
 import javaIcon from "./images/java.png"
-import htmlIcon from "./images/html.png"
 import cssIcon from "./images/css.png"
 import dartIcon from "./images/dart.png"
-import sqlLangIcon from "./images/sql.png"
+import kotlinIcon from "./images/kotlin.png"
 import reactIcon from "./images/react.png"
 import flaskIcon from "./images/flask.png"
 import flutterIcon from "./images/flutter.png"
-import elbIcon from "./images/awsbeanstalk.png"
+import lambdaIcon from "./images/lambda.png"
 import codePipelineIcon from "./images/codepipeline.png"
 import gaIcon from "./images/ga.png"
-import seleniumIcon from "./images/selenium.png"
+import cdkIcon from "./images/awscdk.png"
 import qlikviewIcon from "./images/qlikview.jpg"
 import confluenceIcon from "./images/confluence.png"
 import apexIcon from "./images/apexIcon.png"
@@ -73,7 +72,7 @@ export default {
   aboutParaOne:
     "I’m a senior Computer Science major at Georgia Tech. I enjoy building full stack applications and creating data visualizations that meet specific business needs, and I am passionate about using my knowledge to actively contribute to meaningful projects in a variety of industries.",
   aboutParaTwo:
-    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing the product vision for a campus web development organization. I've previously worked at American Express as a Software Engineering Intern and Analog Devices as a Data Visualization Intern.",
+    "Currently, I'm involved in several innovative projects ranging from software development for a national nonprofit to directing the product vision for a campus web development organization. I've previously worked as a Software Engineer Intern at Amazon, American Express, and Analog Devices.",
   aboutParaThree:
     "When I'm not coding or expanding my professional breadth, you can typically find me experimenting with a new recipe, immersed in a good book, or traveling to a new city. Thanks for checking out my page!",
   aboutImage:
@@ -175,7 +174,7 @@ export default {
       img: amazonIcon,
       title: "Amazon",
       subtitle: "Software Development Engineer Intern | Summer 2023",
-      para: <p>So excited about this upcoming opportunity!</p>,
+      para: <p>Migrated a shipment processing workflow supporting 3 million internationally shipped units per month to AWS Lambda while decoupling it from a legacy monolith, reducing processing time up for parallelizable work items up to 200 times.</p>,
     },
     {
       id: 3,
@@ -205,7 +204,7 @@ export default {
       id: 1,
       img: bogIcon,
       title: "Bits of Good",
-      subtitle: "Associate Director of Product | Jan 2022 - Present",
+      subtitle: "Associate Director of Product | Jan 2023 - Present",
       para: <p>Overseeing 7 project teams to ensure all products demonstrate value and viability. Driving product vision and strategy to provide nonprofit clients with a seamless user experience.</p>,
     },
     {
@@ -269,18 +268,18 @@ export default {
       },
       {
         id: 4,
+        img: kotlinIcon,
+        title: "Kotlin",
+      },
+      {
+        id: 5,
         img: dartIcon,
         title: "Dart",
       },
       {
-        id: 5,
+        id: 6,
         img: cssIcon,
         title: "HTML & CSS",
-      },
-      {
-        id: 6,
-        img: sqlLangIcon,
-        title: "SQL",
       },
     ],
 
@@ -302,18 +301,18 @@ export default {
       },
       {
         id: 4,
-        img: elbIcon,
-        title: "AWS Elastic Beanstalk",
+        img: lambdaIcon,
+        title: "AWS Lambda",
       },
       {
         id: 5,
-        img: codePipelineIcon,
-        title: "AWS CodePipeline",
+        img: cdkIcon,
+        title: "AWS Cloud Development Kit",
       },
       {
         id: 6,
-        img: seleniumIcon,
-        title: "Selenium",
+        img: codePipelineIcon,
+        title: "AWS CodePipeline",
       },
     ],
 
